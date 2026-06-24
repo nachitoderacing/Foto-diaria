@@ -9,7 +9,7 @@ function buscarFecha() {
 
     let fecha = document.querySelector("#fecha").value;
 
-    let url = "https://api.nasa.gov/planetary/apod?api_key=" + API_KEY + "&date=" + fecha;
+    let url = "https://api.nasa.gov/planetary/apod?api_key=" + DY7XjntqMgJLFHYv0onunfBapKN8ZNG8UzhudHfQ + "&date=" + fecha;
 
     fetch(url)
         .then(function(respuesta) {
