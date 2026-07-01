@@ -22,8 +22,8 @@ function buscarFecha() {
         .then(function(datos) {
 
             resultado.innerHTML =
-                "<h2>" + datos.title + "</h2>" +
-                "<img src='" + datos.url + "' width='500'>" +
+                "<h2>" + datos.title + "</h2>" ;
+                "<img src='" + datos.url + "' width='500'>" ;
                 "<p>" + datos.explanation + "</p>";
 
         });
@@ -50,8 +50,8 @@ function buscarAleatorio() {
 
                 resultado.innerHTML +=
                     "<div>" +
-                    "<h2>" + datos[index].title + "</h2>" +
-                    "<img src='" + datos[index].url + "' width='300'>" +
+                    "<h2>" + datos[index].title + "</h2>" ;
+                    "<img src='" + datos[index].url + "' width='300'>" ;
                     "<p>" + datos[index].explanation + "</p>" 
                     "</div>";
 
