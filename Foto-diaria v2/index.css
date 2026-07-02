@@ -1,0 +1,22 @@
+body{
+    font: sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: #f2f2f2;
+    
+}
+
+
+#resultado div{
+    background: white;
+    margin: 40px ;
+    padding: 15px;
+    width: 90%;
+    border-radius: 20px;
+}
+input{
+    font: Arial;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(117, 117, 117, 0.938);
+}
